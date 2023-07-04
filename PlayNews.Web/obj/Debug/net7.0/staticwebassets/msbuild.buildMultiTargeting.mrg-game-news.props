@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mrg-game-news.props" />
+</Project>

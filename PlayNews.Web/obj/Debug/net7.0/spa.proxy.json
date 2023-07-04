@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44476",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ZuGdpbU1yHid9DeAQqoepAwTQButrdBDhFqeEukLKc0=",
+  "Source": "mrg-game-news",
+  "BasePath": "_content/mrg-game-news",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "mrg-game-news\\wwwroot",
+      "Source": "mrg-game-news",
+      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\",
+      "BasePath": "_content/mrg-game-news",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\favicon.ico",
+      "SourceId": "mrg-game-news",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\",
+      "BasePath": "_content/mrg-game-news",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
