@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aplicacao\Categoria\" />
+    <Folder Include="Aplicacao\Jogo\" />
+    <Folder Include="Aplicacao\Usuario\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+  </ItemGroup>
+
+</Project>
