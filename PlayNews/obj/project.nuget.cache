@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2vEOeom/CJvU4joZs/97+JnV2kHoDz8/0WHLPP6Vad2VkH5uFJqcaLct97B0Ml+Dfeqg/NfYhThYCjJfR+tEcg==",
+  "dgSpecHash": "5A2X4nJT+ShjxkWhTpqfCMeu2jrSrm7ORe/WOjrJpR1MEeI/+NlXMgAKwECPIGp0Xt/6IUMSsXvfkqugcUqalQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj",
+  "projectFilePath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gleis\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",

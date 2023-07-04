@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj",
+      "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
       "projectName": "PlayNews",
-      "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj",
+      "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
       "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\obj\\",
+      "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gleis\\AppData\\Roaming\\NuGet\\NuGet.Config",

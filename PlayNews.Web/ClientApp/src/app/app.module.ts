@@ -19,6 +19,7 @@ import { PerfilUsuarioComponent } from './private/perfil-usuario/perfil-usuario.
 import { ReviewsComponent } from './private/reviews/reviews.component';
 import { CriarNoticiaComponent } from './private/noticias/criar-noticia/criar-noticia.component';
 import { AngularEditorModule } from '@kolkov/angular-editor';
+import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { AngularEditorModule } from '@kolkov/angular-editor';
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     BrowserAnimationsModule,
+    DataTablesModule,
     HttpClientModule,
     AngularEditorModule,
     FormsModule,

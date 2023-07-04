@@ -1,17 +1,97 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\PlayNews.Web.csproj": {}
+    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\PlayNews.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj": {
+    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\PlayNews.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj",
-        "projectName": "PlayNews",
-        "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj",
+        "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\PlayNews.Web.csproj",
+        "projectName": "PlayNews.Web",
+        "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\PlayNews.Web.csproj",
         "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\obj\\",
+        "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gleis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj": {
+                "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
+        "projectName": "PlayNews",
+        "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
+        "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gleis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,86 +141,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\PlayNews.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\PlayNews.Web.csproj",
-        "projectName": "PlayNews.Web",
-        "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\PlayNews.Web.csproj",
-        "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\gleis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj": {
-                "projectPath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNewsBack\\PlayNews.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Microsoft.AspNetCore.SpaProxy": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

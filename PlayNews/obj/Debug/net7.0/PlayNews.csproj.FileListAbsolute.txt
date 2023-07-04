@@ -1,0 +1,12 @@
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\bin\Debug\net7.0\PlayNews.deps.json
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\bin\Debug\net7.0\PlayNews.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\bin\Debug\net7.0\PlayNews.pdb
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.csproj.AssemblyReference.cache
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.AssemblyInfoInputs.cache
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.AssemblyInfo.cs
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.csproj.CoreCompileInputs.cache
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\refint\PlayNews.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\PlayNews.pdb
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews\obj\Debug\net7.0\ref\PlayNews.dll

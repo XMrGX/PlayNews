@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Aplicacao\Categoria\" />
-    <Folder Include="Aplicacao\Jogo\" />
     <Folder Include="Aplicacao\Usuario\" />
   </ItemGroup>
 

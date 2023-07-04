@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xSwOpmWDRQbcvWX5/FeaUrg6NgTYq9nx9e4Zz2BAtLZxB+MWaPmnVh6lHFkY9popLdAKYGmUVf+0yPnLSgRMDg==",
+  "dgSpecHash": "EycHy6bilYqRC5TPtS7QvesMUKfs3VfzbvUR74yZ1wcA87u4hy9jNOBPPAQxFUq8qKM5X4frNfZs1fjE9ptIeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\PlayNews.Web.csproj",
+  "projectFilePath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\PlayNews.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gleis\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

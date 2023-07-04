@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "ZuGdpbU1yHid9DeAQqoepAwTQButrdBDhFqeEukLKc0=",
-  "Source": "mrg-game-news",
-  "BasePath": "_content/mrg-game-news",
+  "Hash": "kraGWfj9McWdRR5I/qae8Hqhjjoi+nj06wz5cMVm64k=",
+  "Source": "PlayNews.Web",
+  "BasePath": "_content/PlayNews.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "mrg-game-news\\wwwroot",
-      "Source": "mrg-game-news",
-      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\",
-      "BasePath": "_content/mrg-game-news",
+      "Name": "PlayNews.Web\\wwwroot",
+      "Source": "PlayNews.Web",
+      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\wwwroot\\",
+      "BasePath": "_content/PlayNews.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\favicon.ico",
-      "SourceId": "mrg-game-news",
+      "Identity": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\wwwroot\\favicon.ico",
+      "SourceId": "PlayNews.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\ProjetoGameNews\\MrgGameNews\\wwwroot\\",
-      "BasePath": "_content/mrg-game-news",
+      "ContentRoot": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews.Web\\wwwroot\\",
+      "BasePath": "_content/PlayNews.Web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",

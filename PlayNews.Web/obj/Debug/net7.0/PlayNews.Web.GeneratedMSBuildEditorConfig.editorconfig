@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mrg_game_news
 build_property.RootNamespace = mrg_game_news
-build_property.ProjectDir = C:\Users\gleis\OneDrive\Área de Trabalho\ProjetoGameNews\MrgGameNews\
+build_property.ProjectDir = C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gleis\OneDrive\Área de Trabalho\ProjetoGameNews\MrgGameNews
+build_property.MSBuildProjectDirectory = C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gleis/OneDrive/Área de Trabalho/ProjetoGameNews/MrgGameNews/Pages/Error.cshtml]
+[C:/Users/gleis/OneDrive/Área de Trabalho/PlayNews/PlayNews.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gleis/OneDrive/Área de Trabalho/ProjetoGameNews/MrgGameNews/Pages/_ViewImports.cshtml]
+[C:/Users/gleis/OneDrive/Área de Trabalho/PlayNews/PlayNews.Web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
