@@ -20,9 +20,19 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
-th {
-  color: #993399
+.sorting {
+  color: red;
 }
+.table thead th {
+  cursor: pointer;
+  position: relative;
+  padding-right: 26px;
+  font-weight: 500;
+  color: white;
+  background-color: #993399 !important;
+}
+
+
 .botao-flutuante {
   position: fixed;
   bottom: 20px;
@@ -5140,7 +5150,7 @@ License - nucleoapp.com/license/
     }
 
     .card-stats .card-body .numbers .card-category {
-      color: #9A9A9A;
+      /*color: #9A9A9A;*/
       font-size: 16px;
       line-height: 1.4em;
     }

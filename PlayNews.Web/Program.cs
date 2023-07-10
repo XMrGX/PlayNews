@@ -1,7 +1,18 @@
 
 
+using Autofac;
+using Autofac.Core;
+using AutoMapper;
+using MediatR;
+using MediatR.Extensions.Autofac.DependencyInjection;
+using MediatR.Extensions.Autofac.DependencyInjection.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using mrg_game_news;
 using MrgGameNews;
+using PlayNews.Aplicacao.Noticia;
+using PlayNews.Infraestrutura.Persistencia.Noticias;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +22,44 @@ var configuration = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: true)
     .Build();
 
-builder.Services.AddDbContext<MrgGameNewsContext>(options =>
-    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<PlayNewsContext>(options => {
+    options.UseLazyLoadingProxies();
+    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+    });
+
+
+var builderMediatr = new ContainerBuilder();
+
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
+builder.Services.AddAutoMapper(typeof(Program));
+
+var mappingConfig = new MapperConfiguration(config =>
+{
+    config.AddProfile<MappingProfile>();
+});
+
+IMapper mapper = mappingConfig.CreateMapper();
+
+builder.Services.AddSingleton(mapper);
+
+builder.Services.AddScoped<IRequestHandler<ConsultaNoticia, List<ConsultaNoticiaResultado>>, ExecutorConsultaNoticia>();
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddCors(options =>
+    {
+        options.AddDefaultPolicy(builder =>
+        {
+            builder.WithOrigins("https://localhost:44476")
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+    });
+
+
+
+
 
 var app = builder.Build();
 
@@ -28,7 +73,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseCors();
 
 app.MapControllerRoute(
     name: "default",

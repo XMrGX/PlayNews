@@ -1,14 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PlayNews.Dominio.Categorias;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PlayNews.Dominio.Jogos
 {
+    [Table("Jogo")]
     public class Jogo
     {
+        [Key]
+        [Column("Id")]
         public int Id { get; set; }
+        [Column("Nome")]
         public string Nome { get; set; }
+        [Column("Ano")]
+        public int Ano { get; set; }
+
+        [InverseProperty("Jogos")]
+        public virtual List<Categoria> Categorias { get; set; }
     }
 }

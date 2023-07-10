@@ -1,6 +1,6 @@
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\spa.proxy.json
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\appsettings.json
-C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\spa.proxy.json
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\PlayNews.Web.staticwebassets.runtime.json
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\PlayNews.Web.exe
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\PlayNews.Web.deps.json
@@ -10,6 +10,7 @@ C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Autofac.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Humanizer.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\MediatR.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\MediatR.Extensions.Autofac.DependencyInjection.dll
@@ -18,8 +19,10 @@ C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -30,6 +33,8 @@ C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -75,3 +80,9 @@ C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\obj\Debug\net7.0
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\obj\Debug\net7.0\PlayNews.Web.pdb
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\obj\Debug\net7.0\PlayNews.Web.genruntimeconfig.cache
 C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\obj\Debug\net7.0\ref\PlayNews.Web.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\AutoMapper.Collection.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\gleis\OneDrive\Área de Trabalho\PlayNews\PlayNews.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll

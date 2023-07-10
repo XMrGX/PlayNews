@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlayNews.Aplicacao.Noticia
 {
-    public class ConsultaNoticia : IRequest<ConsultaNoticiaResultado>
+    public class ConsultaNoticia : IRequest<List<ConsultaNoticiaResultado>>
     {
     }
 }

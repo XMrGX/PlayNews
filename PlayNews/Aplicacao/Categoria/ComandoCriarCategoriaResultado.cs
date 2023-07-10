@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlayNews.Aplicacao.Categoria
+namespace PlayNews.Aplicacao.Categorias
 {
     public class ComandoCriarCategoriaResultado
     {
