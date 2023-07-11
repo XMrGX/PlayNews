@@ -8,5 +8,9 @@ namespace PlayNews.Aplicacao.Jogo
 {
     public class ConsultaJogoResultado
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int Ano { get; set; }
+        public string Categorias { get; set; }
     }
 }

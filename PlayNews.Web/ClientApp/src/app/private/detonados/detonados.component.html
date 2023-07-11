@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+<nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent" style="background-color: #993399 !important">
   <div class="container-fluid">
     <div class="navbar-wrapper">
       <div class="navbar-toggle">
@@ -8,7 +8,7 @@
           <span class="navbar-toggler-bar bar3"></span>
         </button>
       </div>
-      <a class="navbar-brand" href="#" style="margin-left:277px">Detonados</a>
+      <a class="navbar-brand" href="#" style="margin-left:277px; color:white">Detonados</a>
     </div>
   </div>
 </nav>
@@ -18,164 +18,8 @@
     <div class="col-md-12">
       <div class="card">
         <div class="card-body">
-          <div class="table-responsive">
-            <table class="table">
-              <thead class=" text-primary">
-              <th>
-                ID
-              </th>
-              <th>
-                Titulo
-              </th>
-              <th>
-                Data Publicação
-              </th>
-              <th class="text-right">
-                Jogo
-              </th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    123456
-                  </td>
-                  <td>
-                    Microsoft finaliza compra da activion Blizzard
-                  </td>
-                  <td>
-                    16/06/2023
-                  </td>
-                  <td class="text-right">
-                    Outros
-                  </td>
-                </tr>
-              </tbody>
+          <div class="dataTables_wrapper">
+            <table datatable [dtOptions]="dtOptions" class="table table-striped">
             </table>
           </div>
         </div>
@@ -187,4 +31,3 @@
 <button class="botao-flutuante" routerLink="/criar-noticia">
   <i class="fa fa-plus"></i>
 </button>
-

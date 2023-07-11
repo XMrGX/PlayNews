@@ -14,8 +14,5 @@ namespace PlayNews.Dominio.Jogos
         public string Nome { get; set; }
         [Column("Ano")]
         public int Ano { get; set; }
-
-        [InverseProperty("Jogos")]
-        public virtual List<Categoria> Categorias { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k2JDNf1hmqueaV8Y5KDbjFZUkbNAX8tw6/jNMuWnCzyoOl/B6h1KvoJGKsAxu8JnDJYiUPJshIyvYdwm+k+eQA==",
+  "dgSpecHash": "gV6j5q5i3ECaS9lfwXHxdmIrWu/XEgXAccVp4mmFfBQO7mV1Cz0lRi1l0wP5uw9Y0baY4eXheIHTw5xJJselxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\gleis\\OneDrive\\Área de Trabalho\\PlayNews\\PlayNews\\PlayNews.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,10 @@
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.8\\microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.8\\microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\gleis\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",

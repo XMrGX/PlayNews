@@ -20,15 +20,6 @@ namespace PlayNews.Dominio.Noticias
             builder.Property(p => p.Nome);
 
             builder.Property(p => p.Ano);
-
-            builder
-            .HasMany(a => a.Categorias)
-            .WithMany(d => d.Jogos)
-            .UsingEntity<Dictionary<string, object>>(
-                "AlunoDisciplina",
-                j => j.HasOne<Categoria>().WithMany().HasForeignKey("Id"),
-                j => j.HasOne<Jogo>().WithMany().HasForeignKey("Id")
-            );
         }
     }
 }

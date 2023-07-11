@@ -1,6 +1,5 @@
 ﻿using PlayNews.Dominio.Jogos;
 using PlayNews.Dominio.Usuarios;
-using PlayNews.Infraestrutura.Persistencia.Jogo;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;

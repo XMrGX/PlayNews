@@ -8,5 +8,14 @@ namespace PlayNews.Aplicacao.Detonado
 {
     public class ConsultaDetonadoResultado
     {
+        public int Id { get; set; }
+        public string Titulo { get; set; }
+        public string SubTitulo { get; set; }
+        public string NomeJogo { get; set; }
+        public string NomeUsuario { get; set; }
+        public bool Manchete { get; set; }
+        public bool Ativo { get; set; }
+        public string Corpo { get; set; }
+        public DateTime DataPublicacao { get; set; }
     }
 }

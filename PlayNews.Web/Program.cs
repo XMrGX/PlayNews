@@ -1,5 +1,3 @@
-
-
 using Autofac;
 using Autofac.Core;
 using AutoMapper;
@@ -10,7 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using mrg_game_news;
 using MrgGameNews;
+using PlayNews.Aplicacao.Detonado;
+using PlayNews.Aplicacao.Jogo;
 using PlayNews.Aplicacao.Noticia;
+using PlayNews.Infraestrutura.Persistencia.Analises;
+using PlayNews.Infraestrutura.Persistencia.Detonados;
+using PlayNews.Infraestrutura.Persistencia.Jogos;
 using PlayNews.Infraestrutura.Persistencia.Noticias;
 using System.Reflection;
 
@@ -44,6 +47,9 @@ IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
 builder.Services.AddScoped<IRequestHandler<ConsultaNoticia, List<ConsultaNoticiaResultado>>, ExecutorConsultaNoticia>();
+builder.Services.AddScoped<IRequestHandler<ConsultaAnalise, List<ConsultaAnaliseResultado>>, ExecutorConsultaAnalise>();
+builder.Services.AddScoped<IRequestHandler<ConsultaDetonado, List<ConsultaDetonadoResultado>>, ExecutorConsultaDetonado>();
+builder.Services.AddScoped<IRequestHandler<ConsultaJogo, List<ConsultaJogoResultado>>, ExecutorConsultaJogo>();
 
 builder.Services.AddControllersWithViews();
 
