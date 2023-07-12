@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using PlayNews.Aplicacao.Jogo;
 using PlayNews.Aplicacao.Noticia;
 
 namespace mrg_game_news.Controllers
@@ -16,6 +17,16 @@ namespace mrg_game_news.Controllers
         public List<ConsultaAnaliseResultado> BuscarAnalises(ConsultaAnalise consulta)
         {
             return this.mediator.Send(consulta).Result;
+        }
+
+        public List<ConsultaJogoResultado> BuscarJogos(ConsultaJogo consulta)
+        {
+            return this.mediator.Send(consulta).Result;
+        }
+
+        public ComandoCriarAnaliseResultado CriarAnalise([FromBody] ComandoCriarAnalise comando)
+        {
+            return this.mediator.Send(comando).Result;
         }
     }
 }

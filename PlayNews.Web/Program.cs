@@ -50,6 +50,9 @@ builder.Services.AddScoped<IRequestHandler<ConsultaNoticia, List<ConsultaNoticia
 builder.Services.AddScoped<IRequestHandler<ConsultaAnalise, List<ConsultaAnaliseResultado>>, ExecutorConsultaAnalise>();
 builder.Services.AddScoped<IRequestHandler<ConsultaDetonado, List<ConsultaDetonadoResultado>>, ExecutorConsultaDetonado>();
 builder.Services.AddScoped<IRequestHandler<ConsultaJogo, List<ConsultaJogoResultado>>, ExecutorConsultaJogo>();
+builder.Services.AddScoped<IRequestHandler<ComandoCriarNoticia, ComandoCriarNoticiaResultado>, ExecutorComandoCriarNoticia>();
+builder.Services.AddScoped<IRequestHandler<ComandoCriarAnalise, ComandoCriarAnaliseResultado>, ExecutorComandoCriarAnalise>();
+builder.Services.AddScoped<IRequestHandler<ComandoCriarDetonado, ComandoCriarDetonadoResultado>, ExecutorComandoCriarDetonado>();
 
 builder.Services.AddControllersWithViews();
 

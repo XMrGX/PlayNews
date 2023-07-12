@@ -20,6 +20,8 @@ import { ReviewsComponent } from './private/reviews/reviews.component';
 import { CriarNoticiaComponent } from './private/noticias/criar-noticia/criar-noticia.component';
 import { AngularEditorModule } from '@kolkov/angular-editor';
 import { DataTablesModule } from 'angular-datatables';
+import { CriarDetonadoComponent } from './private/detonados/criar-detonado/criar-detonado.component';
+import { CriarReviewComponent } from './private/reviews/criar-review/criar-review.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { DataTablesModule } from 'angular-datatables';
     NoticiasComponent,
     PerfilUsuarioComponent,
     ReviewsComponent,
-    CriarNoticiaComponent
+    CriarNoticiaComponent,
+    CriarReviewComponent,
+    CriarDetonadoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

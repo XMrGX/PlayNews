@@ -21,6 +21,10 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
+.required-marker {
+  color: red;
+}
+
 .botao-flutuante {
   position: fixed;
   bottom: 20px;
@@ -555,11 +559,26 @@ Copyright (c) 2015 Daniel Eden
   color: #FFFFFF;
 }
 
+.botao-confirmacao {
+  background-color: #993399 !important;
+  color: white !important;
+}
+
+.swal2-confirm {
+  background-color: #993399 !important;
+  color: white !important;
+}
+
+.form-check-input:checked {
+  background-color: #993399 !important;
+  border-color: #993399;
+}
+
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
   .show > .btn-primary.dropdown-toggle:focus,
   .show > .btn-primary.dropdown-toggle:hover {
-    background-color: #34b5b8 !important;
+    background-color: #993399 !important;
     color: #FFFFFF !important;
     box-shadow: none !important;
   }

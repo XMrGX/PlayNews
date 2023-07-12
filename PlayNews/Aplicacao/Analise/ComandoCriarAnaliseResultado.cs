@@ -8,5 +8,6 @@ namespace PlayNews.Aplicacao.Noticia
 {
     public class ComandoCriarAnaliseResultado
     {
+        public bool Sucesso { get; set; } = false;
     }
 }

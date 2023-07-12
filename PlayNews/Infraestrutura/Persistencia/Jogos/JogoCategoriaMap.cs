@@ -14,6 +14,7 @@ namespace PlayNews.Infraestrutura.Persistencia.Jogos
         public void Configure(EntityTypeBuilder<JogoCategoria> builder)
         {
             builder.HasNoKey();
+
             builder.Property(p => p.IdJogo);
 
             builder.Property(p => p.IdCategoria);

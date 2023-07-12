@@ -23,7 +23,7 @@ namespace PlayNews.Infraestrutura.Persistencia.Analises
         }
         public Task<List<ConsultaAnaliseResultado>> Handle(ConsultaAnalise request, CancellationToken cancellationToken)
         {
-            var noticias = this.mapper.Map<List<ConsultaAnaliseResultado>>(this.dbContext.Set<Analise>().ToList());
+            var noticias = this.mapper.Map<List<ConsultaAnaliseResultado>>(this.dbContext.Set<PlayNews.Dominio.Analises.Analise>().ToList());
             return Task.FromResult(noticias);
         }
     }

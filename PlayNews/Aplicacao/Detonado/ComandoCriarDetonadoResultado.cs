@@ -8,5 +8,6 @@ namespace PlayNews.Aplicacao.Detonado
 {
     public class ComandoCriarDetonadoResultado
     {
+        public bool Sucesso { get; set; } = false;
     }
 }

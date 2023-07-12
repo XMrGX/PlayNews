@@ -24,7 +24,7 @@ namespace PlayNews.Infraestrutura.Persistencia.Detonados
         }
         public Task<List<ConsultaDetonadoResultado>> Handle(ConsultaDetonado request, CancellationToken cancellationToken)
         {
-            var noticias = this.mapper.Map<List<ConsultaDetonadoResultado>>(this.dbContext.Set<Detonado>().ToList());
+            var noticias = this.mapper.Map<List<ConsultaDetonadoResultado>>(this.dbContext.Set<PlayNews.Dominio.Detonados.Detonado>().ToList());
             return Task.FromResult(noticias);
         }
     }

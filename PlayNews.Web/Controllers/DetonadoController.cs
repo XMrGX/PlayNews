@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using PlayNews.Aplicacao.Detonado;
+using PlayNews.Aplicacao.Jogo;
+using PlayNews.Aplicacao.Noticia;
 
 namespace mrg_game_news.Controllers
 {
@@ -16,6 +18,16 @@ namespace mrg_game_news.Controllers
         public List<ConsultaDetonadoResultado> BuscarDetonados(ConsultaDetonado consulta)
         {
             return this.mediator.Send(consulta).Result;
+        }
+
+        public List<ConsultaJogoResultado> BuscarJogos(ConsultaJogo consulta)
+        {
+            return this.mediator.Send(consulta).Result;
+        }
+
+        public ComandoCriarDetonadoResultado CriarAnalise([FromBody] ComandoCriarDetonado comando)
+        {
+            return this.mediator.Send(comando).Result;
         }
     }
 }
