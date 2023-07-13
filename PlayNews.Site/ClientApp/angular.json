@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "PlayNews.Site"
+  "defaultProject": "PlayNews.Site",
+  "cli": {
+    "analytics": "ceb1fa5a-817a-4f78-9514-27c338401a40"
+  }
 }
