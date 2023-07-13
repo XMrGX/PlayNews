@@ -27,13 +27,24 @@
               "oidc-client"
             ],
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/assets/images"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/jquery.prettyphoto.js",
+              "src/assets/js/jquery.downCount.js",
+              "src/assets/js/jquery.mkinfinite.js",
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/jquery.dlmenu.js",
+              "src/assets/js/slick.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
