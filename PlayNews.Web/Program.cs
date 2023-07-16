@@ -28,7 +28,7 @@ var configuration = new ConfigurationBuilder()
 builder.Services.AddDbContext<PlayNewsContext>(options => {
     options.UseLazyLoadingProxies();
     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
-    });
+});
 
 
 var builderMediatr = new ContainerBuilder();

@@ -32,7 +32,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/slick-carousel/slick/slick.scss",
+              "node_modules/slick-carousel/slick/slick-theme.scss"
             ],
             "scripts": [
               "src/assets/js/jquery.js",
@@ -43,7 +45,9 @@
               "src/assets/js/modernizr.custom.js",
               "src/assets/js/jquery.dlmenu.js",
               "src/assets/js/slick.js",
-              "src/assets/js/custom.js"
+              "src/assets/js/custom.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
             ]
           },
           "configurations": {

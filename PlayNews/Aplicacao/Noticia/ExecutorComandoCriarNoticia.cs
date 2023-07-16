@@ -44,8 +44,8 @@ namespace PlayNews.Aplicacao.Noticia
             var noticiaImagens = comando.Imagens.Select(imagem => new NoticiaImagem()
             {
                 Capa = false,
-                IdImagem = 1,
-                IdNoticia = 23
+                IdImagem = idImagem,
+                IdNoticia = idNoticia
             }).ToList();
 
             this.context.NoticiaImagens.AddRange(noticiaImagens);

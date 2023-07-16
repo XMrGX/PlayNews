@@ -110,14 +110,15 @@ $(document).on('ready',function(){
 	   slick slider Script Start
 	============================================================== 
 	*/
-	if($('.top-news-slide').length){
-		$('.top-news-slide').slick({
-		  infinite: true,
-		  slidesToShow: 1,
-		  slidesToScroll: 1,
-		  autoplay:true
-		});
-	}
+  $('.top-news-slide').ready(function () {
+    console.log($('.top-news-slide').children());
+    $('.top-news-slide').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 6,
+      autoplay: true
+    });
+  });
 	/*
 	==============================================================
 	   slick slider Script Start

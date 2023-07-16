@@ -418,32 +418,32 @@ body {
       top: 0px;
     }
 
-.yellow_light_bg:before {
+.inicio:before {
   background-color: #b94601;
 }
 
-.blue_bg:before {
+.noticias:before {
   background-color: #5bd9ce;
 }
 
-.green_bg:before {
+.detonados:before {
   background-color: #325d94;
 }
 
-.yellow_bg:before {
+.reviews:before {
   background-color: #edb000;
 }
 
-.parat_bg:before {
-  background-color: #52c206;
+.xbox:before {
+  background-color: #107c10;
 }
 
-.pinck_bg:before {
-  background-color: #ff17d1;
+.sony:before {
+  background-color: rgb(0, 112, 209);
 }
 
-.blue_bg:before {
-  background-color: #03b1ab;
+.nintendo:before {
+  background-color: rgb(230, 0, 18);
 }
 /* drop down star */
 .navigation ul li > ul {
@@ -671,7 +671,7 @@ body {
 }
 
 .kf_bit_fig .overlay:before {
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 .kf_bit_fig {

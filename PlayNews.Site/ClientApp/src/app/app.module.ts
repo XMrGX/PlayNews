@@ -7,12 +7,19 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { MenuComponent } from './public/shared/menu/menu.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { UltimasNoticiasComponent } from './public/components/ultimas-noticias/ultimas-noticias.component';
+import { MancheteComponent } from './public/components/manchete/manchete.component';
+import { PequenoBlogComponent } from './public/components/pequeno-blog/pequeno-blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    MancheteComponent,
+    UltimasNoticiasComponent,
+    PequenoBlogComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -22,7 +29,8 @@ import { MenuComponent } from './public/shared/menu/menu.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       //{ path: 'counter', component: CounterComponent },
       //{ path: 'fetch-data', component: FetchDataComponent },
-    ])
+    ]),
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
